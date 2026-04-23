@@ -1,8 +1,14 @@
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+h1 {
+  color: #5f911a;
+}
+span {
+  color: #bf8339;
+}
 h2 {
-  color: #619011;
+  color: #70af11;
 }
 h3 {
   color: #cc9255;
