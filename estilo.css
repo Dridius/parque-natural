@@ -1,8 +1,21 @@
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #eee;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+header {
+  text-align: center;
+  margin-bottom: 15px;
 }
 h1 {
   color: #5f911a;
+  letter-spacing: 3px;
 }
 span {
   color: #bf8339;
@@ -13,3 +26,15 @@ h2 {
 h3 {
   color: #cc9255;
 }
+
+/*
+width: 900px;
+margin: auto;
+padding: 20px;
+color: red;
+font-size: 2rem;
+font-family: sans;
+list-style:none;
+border: solid;
+border-bottom: solid;
+*/
