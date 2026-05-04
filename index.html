@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parque Natural Sierra Bicuerca</title>
     <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -12,7 +16,9 @@
         <h1>Parque Natural<span> Sierra Bicuerca</span></h1>
       </header>
       <button onclick="changeBackgroundToGray()">Make Background Gray</button>
-      <button onclick="playMusic()">Sonidos del Parque</button>
+      <button class="btn-sonidos-parque" onclick="playMusic()">
+        <i class="fas fa-music"></i> Sonidos del Parque
+      </button>
       <div class="main">
         <nav>
           <ul>
