@@ -1,3 +1,5 @@
+var parkMusic;
+
 function changeBackgroundToGray() {
   document.body.style.backgroundColor = "gray";
 }
@@ -6,7 +8,15 @@ function changeBackgroundToGray() {
 // Retrieved 2026-04-28, License - CC BY-SA 3.0
 
 function playMusic() {
-  var music = new Audio("mixkit-morning-birds-2472.wav");
-  music.play();
+  if (!parkMusic) {
+    parkMusic = new Audio("mixkit-morning-birds-2472.wav");
+    parkMusic.loop = true;
+  }
+
+  if (parkMusic.paused) {
+    parkMusic.play();
+  } else {
+    parkMusic.pause();
+  }
 }
 //https://mixkit.co/free-sound-effects/discover/mp3/
